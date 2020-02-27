@@ -1,0 +1,10 @@
+Col  ename for a10;
+Col  empno for 9999;
+col  sal for 9999;
+col  comm for 9999;
+col  job for a10;
+col  mgr for 9999;
+col  hiredate for a12;
+set  pagesize 20;
+col  tname for a20;
+set pagesize 80;
