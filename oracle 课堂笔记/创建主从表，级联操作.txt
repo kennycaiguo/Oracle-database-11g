@@ -1,0 +1,18 @@
+创建主表dept
+create TABLE dept(
+id int PRIMARY KEY,
+depName VARCHAR(255)
+);（有些工具不需要分号）
+
+创建从表并且声明关联
+
+CREATE TABLE employee(
+  id int PRIMARY KEY,
+	name VARCHAR(20),
+	depId int, CONSTRAINT employee_dept_fk FOREIGN KEY(depId) REFERENCES dept(id) ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+说明：ON UPDATE CASCADE  表示修改主表的数据，会同时更新从表的数据
+          ON DELETE CASCADE    表示删除主表的数据，会同时删除从表的数据
+);
+          
