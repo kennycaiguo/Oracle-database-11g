@@ -1,0 +1,2 @@
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\zh-CN
+里面有好多xml是配置文件
